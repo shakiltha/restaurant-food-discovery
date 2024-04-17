@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* custom color */
+:root {
+    --background: #fff;
+    --primary: #ffc200;
+    --layer: #ffd041;
+}
+
+/* default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common fonts */
+.grand-hotel-regular {
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-mont {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* body styling */
+body {
+    background-color: aquamarine;
+    max-width: 1400px;
+    border: 2px solid;
+    margin: 0 auto;
+}
