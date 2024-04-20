@@ -35,3 +35,7 @@
     background-color: var(--primary);
     margin: 1rem 0;
 }
+
+.taste-statistics__circular-color {
+    color: var(--layer)
+}

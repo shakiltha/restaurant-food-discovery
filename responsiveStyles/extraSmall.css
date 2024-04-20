@@ -139,3 +139,63 @@ body {
 .best-seller__img-group-para {
     text-align: center;
 }
+
+/* state and statistics section */
+
+.taste-statistics {
+    margin: 20px 0;
+    /* border: 2px solid; */
+}
+
+.taste-statistics__img-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.taste-statistics__img-group {
+    position: relative;
+}
+
+.taste-statistics__img1 {
+    width: 100%;
+    height: 600px;
+}
+
+.taste-statistics__img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.taste-statistics__img {
+    width: 200px;
+    height: 200px;
+}
+
+.taste-statistics__text {
+    margin-top: .5rem;
+}
+
+.taste-statistics__text-group {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    text-align: center;
+}
+
+.taste-statistics__circular-text {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
