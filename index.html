@@ -4,11 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/extraSmall.css"
+      media="screen and (min-width: 232px)"
+    />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/small.css"
+      media="screen and (min-width: 576px)"
+    />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/medium.css"
+      media="screen and (min-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/large.css"
+      media="screen and (min-width: 992px)"
+    />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/extraLarge.css"
+      media="screen and (min-width: 1200px)"
+    />
+    <link
+      rel="stylesheet"
+      href="responsiveStyles/extraExtra.css"
+      media="screen and (min-width: 1400px)"
+    />
     <title>Dish Discovery</title>
   </head>
   <body>
-    <h2 class="grand-hotel-regular dish-title">Dish Discovery Restaurant</h2>
-    <p class="montserrat-mont para">simple paragraph</p>
-    <script src="app.js"></script>
+    <header class="header">
+      <div class="header__img--container">
+        <img
+          class="header--food-img"
+          src="img/food-table.png"
+          alt="food table"
+        />
+
+        <img
+          class="header__design1"
+          src="img/layered-design.png"
+          alt="design layer"
+        />
+        <!-- <img class="shrink" src="./icons/cross.png" alt="delete icon" /> -->
+      </div>
+      <div class="header__navigation--container">
+        <nav class="navigation">
+          <img src="img/logo.png" alt="logo" />
+          <ul class="navigation__ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Promo</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li class="search-img">
+              <img src="img/Search.png" alt="search icon" />
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__order">
+        <h2 class="header__title grand-hotel-regular">DishDiscovery</h2>
+        <p class="header__paragraph">
+          Welcome to DishDiscovery, your digital gateway to a world of culinary
+          exploration and gastronomic delights. At DishDiscovery, we're
+          passionate about uncovering the most tantalizing dishes from around
+          the globe and bringing them to your fingertips. Our website is your
+          go-to destination for discovering new flavors, recipes, and dining
+          experiences that will ignite your taste buds and inspire your culinary
+          adventures. Whether you're a seasoned chef or an amateur foodie, our
+          curated collection of dishes offers something for everyone. Join our
+          vibrant community of food lovers, share your own culinary discoveries,
+          and embark on a flavorful journey with DishDiscovery today.
+        </p>
+        <button class="btn">ORDER NOW</button>
+      </div>
+      <!-- sidebar -->
+
+      <div class="sidebar">
+        <aside class="aside">
+          <h2 class="sidebar__title">disDiscovery</h2>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Promo</a>
+          <a href="">Product</a>
+          <a href="">Contact</a>
+        </aside>
+        <img class="menu" src="./icons/menu.png" alt="menu icon" />
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script src="./app.js"></script>
   </body>
 </html>

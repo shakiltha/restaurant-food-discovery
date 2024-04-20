@@ -1,0 +1,92 @@
+/* BODY STYLING */
+body {
+    background-color: blue;
+    border: 1px solid;
+    color: #fff;
+}
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+} */
+
+.header--food-img {
+    width: 100%;
+    filter: brightness(.6);
+}
+
+.header__design1 {
+    display: none;
+}
+
+.navigation {
+    display: none;
+}
+
+.header__order {
+    width: 96%;
+    position: absolute;
+    top: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header__title {
+    color: #ffc200
+}
+
+/* side bar */
+.menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    cursor: pointer;
+}
+
+
+/* collapsed sidebar after clicking menu icon */
+.sidebar {
+    width: 0%;
+    height: 100%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-out;
+}
+
+.sidebarExpand {
+    width: 30%;
+    height: 100%;
+    transition: all 0.5s ease-out;
+}
+
+.sidebar__title {
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.aside {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.aside a {
+    color: #080101;
+    margin: 5px 0;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.aside a:hover {
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
