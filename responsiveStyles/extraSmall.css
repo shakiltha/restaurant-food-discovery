@@ -1,7 +1,7 @@
 /* BODY STYLING */
 body {
     background-color: blue;
-    border: 1px solid;
+    width: 100%;
     color: #fff;
 }
 
@@ -11,7 +11,8 @@ body {
 } */
 
 .header--food-img {
-    width: 100%;
+    width: 100vw;
+    height: 70vh;
     filter: brightness(.6);
 }
 
@@ -37,6 +38,11 @@ body {
 
 .header__title {
     color: #ffc200
+}
+
+.header__paragraph {
+    text-align: center;
+    margin: 0 5px;
 }
 
 /* side bar */
@@ -89,4 +95,47 @@ body {
 .aside a:hover {
     font-size: 1.3rem;
     text-decoration: underline;
+}
+
+/* ========== main section started ============ */
+
+/* best seller section */
+
+.best-seller__images {
+    margin-bottom: 10px;
+}
+
+.best-seller__title {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.best-seller__paragraph {
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 5px 0 10px 0;
+}
+
+.best-seller__images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.best-seller__images img {
+    width: 300px;
+    height: 300px;
+    margin: 5px auto;
+}
+
+.best-seller__img-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-seller__img-group-para {
+    text-align: center;
 }
