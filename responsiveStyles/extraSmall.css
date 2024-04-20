@@ -199,3 +199,23 @@ body {
     align-items: center;
     margin: 10px auto;
 }
+
+/* chicken grill section */
+
+.chicken-grill {
+    margin-top: 50rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.chicken-grill__background {
+    width: 100%;
+    height: auto;
+}
+
+.chicken-grill__text-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
