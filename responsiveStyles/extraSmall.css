@@ -1,8 +1,7 @@
 /* BODY STYLING */
 body {
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    color: #fff;
 }
 
 /* .header {
@@ -43,6 +42,7 @@ body {
 .header__paragraph {
     text-align: center;
     margin: 0 5px;
+    color: #ffffff;
 }
 
 /* side bar */
@@ -107,13 +107,14 @@ body {
 
 .best-seller__title {
     text-align: center;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .best-seller__paragraph {
     text-align: center;
     font-size: 1.1rem;
     margin: 5px 0 10px 0;
+    color: #000000;
 }
 
 .best-seller__images {
@@ -136,14 +137,19 @@ body {
     align-items: center;
 }
 
+.best-seller__img-group-title {
+    font-size: 1.3rem;
+}
+
 .best-seller__img-group-para {
     text-align: center;
+    color: #000;
 }
 
 /* state and statistics section */
 
 .taste-statistics {
-    margin: 20px 0;
+    margin: 10px 0;
     /* border: 2px solid; */
 }
 
@@ -178,6 +184,7 @@ body {
 
 .taste-statistics__text {
     margin-top: .5rem;
+    color: #000;
 }
 
 .taste-statistics__text-group {
@@ -200,13 +207,17 @@ body {
     margin: 10px auto;
 }
 
+.taste-statistics__paragraph {
+    color: #fff;
+}
+
 /* chicken grill section */
 
 .chicken-grill {
     margin-top: 50rem;
     text-align: center;
     position: relative;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
 }
 
 .chicken-grill__background {
@@ -220,10 +231,14 @@ body {
     left: 0;
 }
 
+.chicken-grill__paragraph {
+    color: #fff;
+}
+
 /* lenora fields */
 .lenora-fields {
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .lenora-fields__img {
@@ -252,5 +267,57 @@ body {
 }
 
 .lenora-fields__paragraph {
+    color: #030202;
+}
+
+/* subscribe section */
+
+.subscribe {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.subscribe-form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.subscribe__img {
+    width: 100%;
+    height: auto;
+}
+
+.subscribe__title {
     color: #000;
+    text-align: center;
+}
+
+.subscribe__paragraph {
+    color: #000;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-email {
+    padding: .6rem .9rem;
+    margin: 1rem 0;
+    border: none;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+.btn-noradius {
+    border-radius: 0;
+    outline: none;
+    box-shadow: 1px 1px 4px 1px black;
 }
