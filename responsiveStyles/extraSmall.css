@@ -180,6 +180,7 @@ body {
 .taste-statistics__img {
     width: 200px;
     height: 200px;
+    margin-top: 10px;
 }
 
 .taste-statistics__text {
@@ -218,6 +219,11 @@ body {
     text-align: center;
     position: relative;
     margin-bottom: 2rem;
+}
+
+.chicken-grill__title {
+    margin-top: 5px;
+    color: #ffc200;
 }
 
 .chicken-grill__background {
@@ -320,4 +326,61 @@ body {
     border-radius: 0;
     outline: none;
     box-shadow: 1px 1px 4px 1px black;
+}
+
+/* footer section */
+
+/* footer title and social media icons */
+.footer__text-icon-title {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.footer__text-icon-paragraph {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.footer__text-icon-icons {
+    display: grid;
+    grid-template-columns: 60px 60px;
+    grid-template-rows: 2;
+    gap: 2rem;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.footer__text-icon-icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+/* footer about title and other links */
+
+.footer__about-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer__about-links li {
+    list-style: none;
+    padding: 1px;
+    margin: 2px;
+}
+
+.footer__about-links li a {
+    text-decoration: none;
+}
+
+.footer__other {
+    margin-bottom: 20px;
 }
