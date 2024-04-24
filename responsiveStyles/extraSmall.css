@@ -215,10 +215,10 @@ body {
 /* chicken grill section */
 
 .chicken-grill {
-    margin-top: 50rem;
+    margin-top: 2rem;
     text-align: center;
     position: relative;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 
 .chicken-grill__title {
@@ -235,6 +235,12 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+
+}
+
+.taste-statistics__img {
+    max-width: 80%;
+    height: auto;
 }
 
 .chicken-grill__paragraph {
@@ -245,6 +251,7 @@ body {
 .lenora-fields {
     position: relative;
     margin-bottom: 2rem;
+    margin-top: 10rem;
 }
 
 .lenora-fields__img {
